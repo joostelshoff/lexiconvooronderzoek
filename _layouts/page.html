@@ -1,2 +1,64 @@
---- layout: default ---
-{{ content }}
+---
+layout: default
+---
+<div class="wikilink-content page-content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</div>
+
+<script>
+(function () {
+  // Bouwt een opzoektabel van termnaam (kleine letters) -> URL, op basis van
+  // alle pagina's in termen/. Nieuwe termen worden hier automatisch in
+  // meegenomen bij elke nieuwe build.
+  var termen = {
+    {% assign termpages = site.pages | where_exp: "p", "p.path contains 'termen/'" %}
+    {% for p in termpages %}"{{ p.title | downcase | strip }}": "{{ p.url | relative_url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
+  var container = document.querySelector(".wikilink-content");
+  if (!container) return;
+
+  var re = /\[\[([^\[\]|]+)(?:\|([^\[\]]+))?\]\]/g;
+  var walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null, false);
+  var textNodes = [];
+  var node;
+  while ((node = walker.nextNode())) {
+    if (node.nodeValue.indexOf("[[") !== -1) textNodes.push(node);
+  }
+
+  textNodes.forEach(function (textNode) {
+    var text = textNode.nodeValue;
+    re.lastIndex = 0;
+    if (!re.test(text)) return;
+    re.lastIndex = 0;
+
+    var frag = document.createDocumentFragment();
+    var lastIndex = 0;
+    var match;
+    while ((match = re.exec(text))) {
+      if (match.index > lastIndex) {
+        frag.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+      var target = match[1].trim();
+      var alias = (match[2] || target).trim();
+      var url = termen[target.toLowerCase()];
+      if (url) {
+        var a = document.createElement("a");
+        a.href = url;
+        a.textContent = alias;
+        frag.appendChild(a);
+      } else {
+        frag.appendChild(document.createTextNode(alias));
+      }
+      lastIndex = match.index + match[0].length;
+    }
+    if (lastIndex < text.length) {
+      frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+    textNode.parentNode.replaceChild(frag, textNode);
+  });
+})();
+</script>
