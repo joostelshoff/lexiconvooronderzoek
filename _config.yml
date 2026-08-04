@@ -6,3 +6,15 @@ markdown: kramdown
 # Zorgt dat GitHub Pages ook .md-bestanden buiten de root (zoals termen/*.md) meebouwt
 include:
   - termen
+
+# Zonder deze regel zet minima automatisch ALLE pagina's (dus alle 60+ termen)
+# als aparte knoppen in de header-navigatie. Dit beperkt de header tot Home;
+# de volledige lijst met termen staat al netjes op de homepage.
+header_pages:
+  - index.md
+
+# Obsidian-bestanden die geen echte lexicon-term zijn (bijv. dataview-query's)
+# horen niet als pagina gepubliceerd te worden. Voeg hier gerust meer
+# bestandsnamen aan toe als je die tegenkomt.
+exclude:
+  - termen/allterms.md
