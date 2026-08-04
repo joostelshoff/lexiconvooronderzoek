@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-# Lexicon Vooronderzoek
+# Lexicon voor Onderzoek
 
 Ruimte om een lexicon voor onderzoek in te ontwikkelen.
 
