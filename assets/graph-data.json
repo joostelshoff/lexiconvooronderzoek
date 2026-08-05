@@ -1,0 +1,1468 @@
+{
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "lexiconvooronderzoek",
+      "url": "/README.html"
+    },
+    {
+      "id": "index",
+      "label": "Home",
+      "url": "/index.html"
+    },
+    {
+      "id": "graph",
+      "label": "Graph",
+      "url": "/graph.html"
+    },
+    {
+      "id": "archetype - onderzoeksprivacy",
+      "label": "Onderzoeksprivacy",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksprivacy.html"
+    },
+    {
+      "id": "archetype - research datamanagement",
+      "label": "Research datamanagement",
+      "url": "/archetypes/Archetype%20-%20Research%20Datamanagement.html"
+    },
+    {
+      "id": "archetype - onderzoeksfinanciering",
+      "label": "Onderzoeksfinanciering",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksfinanciering.html"
+    },
+    {
+      "id": "archetype - onderzoeksactiviteit",
+      "label": "Onderzoeksactiviteit",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksactiviteit.html"
+    },
+    {
+      "id": "archetype - domein",
+      "label": "Domein",
+      "url": "/archetypes/Archetype%20-%20Domein.html"
+    },
+    {
+      "id": "archetype - samenwerking",
+      "label": "Samenwerking",
+      "url": "/archetypes/Archetype%20-%20Samenwerking.html"
+    },
+    {
+      "id": "archetype - onderzoeksdata",
+      "label": "Onderzoeksdata",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksdata.html"
+    },
+    {
+      "id": "archetype - onderzoeksoutput",
+      "label": "Onderzoeksoutput",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksoutput.html"
+    },
+    {
+      "id": "archetype - onderzoeksmethode",
+      "label": "Onderzoeksmethode",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksmethode.html"
+    },
+    {
+      "id": "archetypes",
+      "label": "Archetypes",
+      "url": "/archetypes/Archetypes.html"
+    },
+    {
+      "id": "archetype - kwaliteitszorg",
+      "label": "Kwaliteitszorg",
+      "url": "/archetypes/Archetype%20-%20Kwaliteitszorg.html"
+    },
+    {
+      "id": "archetype - onderzoeksrol",
+      "label": "Onderzoeksrol",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksrol.html"
+    },
+    {
+      "id": "archetype - onderzoeksorganisatie",
+      "label": "Onderzoeksorganisatie",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksorganisatie.html"
+    },
+    {
+      "id": "archetype - onderzoeksethiek",
+      "label": "Onderzoeksethiek",
+      "url": "/archetypes/Archetype%20-%20Onderzoeksethiek.html"
+    },
+    {
+      "id": "persoonsgegevens",
+      "label": "Persoonsgegevens",
+      "url": "/termen/Persoonsgegevens.html"
+    },
+    {
+      "id": "consortium",
+      "label": "Consortium",
+      "url": "/termen/Consortium.html"
+    },
+    {
+      "id": "datamanagement",
+      "label": "Datamanagement",
+      "url": "/termen/Datamanagement.html"
+    },
+    {
+      "id": "ethische toetsing",
+      "label": "Ethische toetsing",
+      "url": "/termen/Ethische%20toetsing.html"
+    },
+    {
+      "id": "onderzoeker",
+      "label": "Onderzoeker",
+      "url": "/termen/Onderzoeker.html"
+    },
+    {
+      "id": "subsidieaanvraag",
+      "label": "Subsidieaanvraag",
+      "url": "/termen/Subsidieaanvraag.html"
+    },
+    {
+      "id": "bijzondere persoonsgegevens",
+      "label": "Bijzondere persoonsgegevens",
+      "url": "/termen/Bijzondere%20persoonsgegevens.html"
+    },
+    {
+      "id": "open access",
+      "label": "Open Access",
+      "url": "/termen/Open%20Access.html"
+    },
+    {
+      "id": "onderzoeksdeelnemer",
+      "label": "Onderzoeksdeelnemer",
+      "url": "/termen/Onderzoeksdeelnemer.html"
+    },
+    {
+      "id": "dpia",
+      "label": "DPIA",
+      "url": "/termen/DPIA.html"
+    },
+    {
+      "id": "data steward",
+      "label": "Data steward",
+      "url": "/termen/Data%20steward.html"
+    },
+    {
+      "id": "datamanagementplan",
+      "label": "Datamanagementplan",
+      "url": "/termen/Datamanagementplan.html"
+    },
+    {
+      "id": "dataset",
+      "label": "Dataset",
+      "url": "/termen/Dataset.html"
+    },
+    {
+      "id": "financier",
+      "label": "Financier",
+      "url": "/termen/Financier.html"
+    },
+    {
+      "id": "ethische commissie onderzoek",
+      "label": "Ethische Commissie Onderzoek",
+      "url": "/termen/Ethische%20Commissie%20Onderzoek.html"
+    },
+    {
+      "id": "matching",
+      "label": "Matching",
+      "url": "/termen/Matching.html"
+    },
+    {
+      "id": "lector",
+      "label": "Lector",
+      "url": "/termen/Lector.html"
+    },
+    {
+      "id": "orcid",
+      "label": "ORCID",
+      "url": "/termen/ORCID.html"
+    },
+    {
+      "id": "digitale onderzoeksomgeving",
+      "label": "Digitale onderzoeksomgeving",
+      "url": "/termen/Digitale%20Onderzoeksomgeving.html"
+    },
+    {
+      "id": "mixed methods",
+      "label": "Mixed methods",
+      "url": "/termen/Mixed%20methods.html"
+    },
+    {
+      "id": "observatie",
+      "label": "Observatie",
+      "url": "/termen/Observatie.html"
+    },
+    {
+      "id": "projectleider",
+      "label": "Projectleider",
+      "url": "/termen/Projectleider.html"
+    },
+    {
+      "id": "kwantitatieve data-analyse",
+      "label": "Kwantitatieve data-analyse",
+      "url": "/termen/Kwantitatieve%20data-analyse.html"
+    },
+    {
+      "id": "statistische analyse",
+      "label": "Statistische analyse",
+      "url": "/termen/Statistische%20analyse.html"
+    },
+    {
+      "id": "derde geldstroom",
+      "label": "Derde geldstroom",
+      "url": "/termen/Derde%20geldstroom.html"
+    },
+    {
+      "id": "doi",
+      "label": "DOI",
+      "url": "/termen/DOI.html"
+    },
+    {
+      "id": "avg",
+      "label": "AVG",
+      "url": "/termen/AVG.html"
+    },
+    {
+      "id": "in-kind bijdrage",
+      "label": "In-kind bijdrage",
+      "url": "/termen/In-kind%20bijdrage.html"
+    },
+    {
+      "id": "lectoraat",
+      "label": "Lectoraat",
+      "url": "/termen/Lectoraat.html"
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy",
+      "url": "/termen/Privacy.html"
+    },
+    {
+      "id": "casestudy",
+      "label": "Casestudy",
+      "url": "/termen/Casestudy.html"
+    },
+    {
+      "id": "dataopslag",
+      "label": "Dataopslag",
+      "url": "/termen/Dataopslag.html"
+    },
+    {
+      "id": "virtuele onderzoeksomgeving",
+      "label": "Virtuele onderzoeksomgeving",
+      "url": "/termen/Virtuele%20onderzoeksomgeving.html"
+    },
+    {
+      "id": "onderzoeksondersteuner",
+      "label": "Onderzoeksondersteuner",
+      "url": "/termen/Onderzoeksondersteuner.html"
+    },
+    {
+      "id": "onderzoeksprogramma",
+      "label": "Onderzoeksprogramma",
+      "url": "/termen/Onderzoeksprogramma.html"
+    },
+    {
+      "id": "faculteit",
+      "label": "Faculteit",
+      "url": "/termen/Faculteit.html"
+    },
+    {
+      "id": "high performance computing",
+      "label": "High Performance Computing",
+      "url": "/termen/High%20Performance%20Computing.html"
+    },
+    {
+      "id": "repository",
+      "label": "Repository",
+      "url": "/termen/Repository.html"
+    },
+    {
+      "id": "coderen",
+      "label": "Coderen",
+      "url": "/termen/Coderen.html"
+    },
+    {
+      "id": "subsidie",
+      "label": "Subsidie",
+      "url": "/termen/Subsidie.html"
+    },
+    {
+      "id": "metc",
+      "label": "METC",
+      "url": "/termen/METC.html"
+    },
+    {
+      "id": "kwalitatieve data-analyse",
+      "label": "Kwalitatieve data-analyse",
+      "url": "/termen/Kwalitatieve%20data-analyse.html"
+    },
+    {
+      "id": "metadata",
+      "label": "Metadata",
+      "url": "/termen/Metadata.html"
+    },
+    {
+      "id": "onderzoeksinfrastructuur",
+      "label": "Onderzoeksinfrastructuur",
+      "url": "/termen/Onderzoeksinfrastructuur.html"
+    },
+    {
+      "id": "interview",
+      "label": "Interview",
+      "url": "/termen/Interview.html"
+    },
+    {
+      "id": "survey",
+      "label": "Survey",
+      "url": "/termen/Survey.html"
+    },
+    {
+      "id": "functionaris gegevensbescherming",
+      "label": "Functionaris Gegevensbescherming",
+      "url": "/termen/Functionaris%20Gegevensbescherming.html"
+    },
+    {
+      "id": "open science",
+      "label": "Open Science",
+      "url": "/termen/Open%20Science.html"
+    },
+    {
+      "id": "kenniscentrum",
+      "label": "Kenniscentrum",
+      "url": "/termen/Kenniscentrum.html"
+    },
+    {
+      "id": "publicatie",
+      "label": "Publicatie",
+      "url": "/termen/Publicatie.html"
+    },
+    {
+      "id": "eerste geldstroom",
+      "label": "Eerste geldstroom",
+      "url": "/termen/Eerste%20geldstroom.html"
+    },
+    {
+      "id": "subsidieadviseur",
+      "label": "Subsidieadviseur",
+      "url": "/termen/Subsidieadviseur.html"
+    },
+    {
+      "id": "persistent identifier (pid)",
+      "label": "Persistent Identifier (PID)",
+      "url": "/termen/Persistent%20Identifier%20(PID).html"
+    },
+    {
+      "id": "onderzoeksproject",
+      "label": "Onderzoeksproject",
+      "url": "/termen/Onderzoeksproject.html"
+    },
+    {
+      "id": "focusgroep",
+      "label": "Focusgroep",
+      "url": "/termen/Focusgroep.html"
+    },
+    {
+      "id": "fair data",
+      "label": "FAIR data",
+      "url": "/termen/FAIR%20data.html"
+    },
+    {
+      "id": "onderzoeksgroep",
+      "label": "Onderzoeksgroep",
+      "url": "/termen/Onderzoeksgroep.html"
+    },
+    {
+      "id": "privacy officer",
+      "label": "Privacy Officer",
+      "url": "/termen/Privacy%20Officer.html"
+    },
+    {
+      "id": "research datamanagement",
+      "label": "Research Datamanagement",
+      "url": "/termen/Research%20Datamanagement.html"
+    },
+    {
+      "id": "fair",
+      "label": "FAIR",
+      "url": "/termen/FAIR.html"
+    },
+    {
+      "id": "tweede geldstroom",
+      "label": "Tweede geldstroom",
+      "url": "/termen/Tweede%20geldstroom.html"
+    }
+  ],
+  "links": [
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "archetype - onderzoeksethiek"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "archetype - research datamanagement"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "privacy"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "avg"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "bijzondere persoonsgegevens"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "dpia"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "privacy officer"
+    },
+    {
+      "source": "archetype - onderzoeksprivacy",
+      "target": "functionaris gegevensbescherming"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "archetype - onderzoeksethiek"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "datamanagement"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "datamanagementplan"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "metadata"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "dataopslag"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "dataset"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "virtuele onderzoeksomgeving"
+    },
+    {
+      "source": "archetype - research datamanagement",
+      "target": "fair data"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "subsidie"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "financier"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "eerste geldstroom"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "tweede geldstroom"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "derde geldstroom"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "matching"
+    },
+    {
+      "source": "archetype - onderzoeksfinanciering",
+      "target": "in-kind bijdrage"
+    },
+    {
+      "source": "archetype - onderzoeksactiviteit",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "archetype - onderzoeksactiviteit",
+      "target": "onderzoeksprogramma"
+    },
+    {
+      "source": "archetype - onderzoeksactiviteit",
+      "target": "datamanagement"
+    },
+    {
+      "source": "archetype - onderzoeksactiviteit",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "archetype - samenwerking",
+      "target": "consortium"
+    },
+    {
+      "source": "archetype - onderzoeksdata",
+      "target": "dataset"
+    },
+    {
+      "source": "archetype - onderzoeksdata",
+      "target": "metadata"
+    },
+    {
+      "source": "archetype - onderzoeksdata",
+      "target": "archetype - onderzoeksactiviteit"
+    },
+    {
+      "source": "archetype - onderzoeksoutput",
+      "target": "publicatie"
+    },
+    {
+      "source": "archetype - onderzoeksoutput",
+      "target": "dataset"
+    },
+    {
+      "source": "archetype - onderzoeksoutput",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "kwalitatieve data-analyse"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "kwantitatieve data-analyse"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "mixed methods"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "interview"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "observatie"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "survey"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "casestudy"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "focusgroep"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "statistische analyse"
+    },
+    {
+      "source": "archetype - onderzoeksmethode",
+      "target": "coderen"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksactiviteit"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksorganisatie"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksrol"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksoutput"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksdata"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - kwaliteitszorg"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksethiek"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - onderzoeksprivacy"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - research datamanagement"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - samenwerking"
+    },
+    {
+      "source": "archetypes",
+      "target": "archetype - domein"
+    },
+    {
+      "source": "archetype - kwaliteitszorg",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "archetype - kwaliteitszorg",
+      "target": "datamanagementplan"
+    },
+    {
+      "source": "archetype - onderzoeksrol",
+      "target": "lector"
+    },
+    {
+      "source": "archetype - onderzoeksrol",
+      "target": "projectleider"
+    },
+    {
+      "source": "archetype - onderzoeksrol",
+      "target": "onderzoeksondersteuner"
+    },
+    {
+      "source": "archetype - onderzoeksrol",
+      "target": "data steward"
+    },
+    {
+      "source": "archetype - onderzoeksorganisatie",
+      "target": "onderzoeksgroep"
+    },
+    {
+      "source": "archetype - onderzoeksorganisatie",
+      "target": "lectoraat"
+    },
+    {
+      "source": "archetype - onderzoeksorganisatie",
+      "target": "kenniscentrum"
+    },
+    {
+      "source": "archetype - onderzoeksorganisatie",
+      "target": "faculteit"
+    },
+    {
+      "source": "archetype - onderzoeksorganisatie",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "archetype - onderzoeksorganisatie",
+      "target": "projectleider"
+    },
+    {
+      "source": "archetype - onderzoeksethiek",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "archetype - onderzoeksethiek",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "archetype - onderzoeksethiek",
+      "target": "ethische commissie onderzoek"
+    },
+    {
+      "source": "archetype - onderzoeksethiek",
+      "target": "metc"
+    },
+    {
+      "source": "persoonsgegevens",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "persoonsgegevens",
+      "target": "bijzondere persoonsgegevens"
+    },
+    {
+      "source": "persoonsgegevens",
+      "target": "privacy"
+    },
+    {
+      "source": "consortium",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "consortium",
+      "target": "financier"
+    },
+    {
+      "source": "consortium",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "consortium",
+      "target": "subsidieaanvraag"
+    },
+    {
+      "source": "datamanagement",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "datamanagement",
+      "target": "privacy"
+    },
+    {
+      "source": "ethische toetsing",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "ethische toetsing",
+      "target": "privacy"
+    },
+    {
+      "source": "ethische toetsing",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "lector"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "onderzoeksdeelnemer"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "archetype - onderzoeksrol"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "publicatie"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "lectoraat"
+    },
+    {
+      "source": "onderzoeker",
+      "target": "faculteit"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "financier"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "subsidieadviseur"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "subsidie"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "matching"
+    },
+    {
+      "source": "subsidieaanvraag",
+      "target": "in-kind bijdrage"
+    },
+    {
+      "source": "bijzondere persoonsgegevens",
+      "target": "privacy"
+    },
+    {
+      "source": "bijzondere persoonsgegevens",
+      "target": "dpia"
+    },
+    {
+      "source": "bijzondere persoonsgegevens",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "open access",
+      "target": "open science"
+    },
+    {
+      "source": "open access",
+      "target": "repository"
+    },
+    {
+      "source": "open access",
+      "target": "publicatie"
+    },
+    {
+      "source": "onderzoeksdeelnemer",
+      "target": "archetype - onderzoeksrol"
+    },
+    {
+      "source": "dpia",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "dpia",
+      "target": "privacy officer"
+    },
+    {
+      "source": "dpia",
+      "target": "functionaris gegevensbescherming"
+    },
+    {
+      "source": "dpia",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "dpia",
+      "target": "privacy"
+    },
+    {
+      "source": "dpia",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "data steward",
+      "target": "onderzoeksondersteuner"
+    },
+    {
+      "source": "data steward",
+      "target": "privacy officer"
+    },
+    {
+      "source": "data steward",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "data steward",
+      "target": "datamanagementplan"
+    },
+    {
+      "source": "data steward",
+      "target": "dataset"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "dataset"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "metadata"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "dpia"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "avg"
+    },
+    {
+      "source": "datamanagementplan",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "dataset",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "dataset",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "dataset",
+      "target": "metadata"
+    },
+    {
+      "source": "financier",
+      "target": "subsidie"
+    },
+    {
+      "source": "financier",
+      "target": "subsidieadviseur"
+    },
+    {
+      "source": "ethische commissie onderzoek",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "ethische commissie onderzoek",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "ethische commissie onderzoek",
+      "target": "metc"
+    },
+    {
+      "source": "matching",
+      "target": "subsidie"
+    },
+    {
+      "source": "matching",
+      "target": "financier"
+    },
+    {
+      "source": "matching",
+      "target": "in-kind bijdrage"
+    },
+    {
+      "source": "lector",
+      "target": "lectoraat"
+    },
+    {
+      "source": "lector",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "orcid",
+      "target": "persistent identifier (pid)"
+    },
+    {
+      "source": "orcid",
+      "target": "metadata"
+    },
+    {
+      "source": "orcid",
+      "target": "doi"
+    },
+    {
+      "source": "orcid",
+      "target": "onderzoeker"
+    },
+    {
+      "source": "digitale onderzoeksomgeving",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "digitale onderzoeksomgeving",
+      "target": "virtuele onderzoeksomgeving"
+    },
+    {
+      "source": "digitale onderzoeksomgeving",
+      "target": "repository"
+    },
+    {
+      "source": "digitale onderzoeksomgeving",
+      "target": "dataset"
+    },
+    {
+      "source": "digitale onderzoeksomgeving",
+      "target": "onderzoeksinfrastructuur"
+    },
+    {
+      "source": "mixed methods",
+      "target": "kwalitatieve data-analyse"
+    },
+    {
+      "source": "mixed methods",
+      "target": "kwantitatieve data-analyse"
+    },
+    {
+      "source": "mixed methods",
+      "target": "survey"
+    },
+    {
+      "source": "mixed methods",
+      "target": "interview"
+    },
+    {
+      "source": "observatie",
+      "target": "interview"
+    },
+    {
+      "source": "observatie",
+      "target": "survey"
+    },
+    {
+      "source": "projectleider",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "kwantitatieve data-analyse",
+      "target": "kwalitatieve data-analyse"
+    },
+    {
+      "source": "kwantitatieve data-analyse",
+      "target": "statistische analyse"
+    },
+    {
+      "source": "kwantitatieve data-analyse",
+      "target": "survey"
+    },
+    {
+      "source": "statistische analyse",
+      "target": "survey"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "financier"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "subsidie"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "matching"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "in-kind bijdrage"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "eerste geldstroom"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "tweede geldstroom"
+    },
+    {
+      "source": "derde geldstroom",
+      "target": "subsidieadviseur"
+    },
+    {
+      "source": "doi",
+      "target": "persistent identifier (pid)"
+    },
+    {
+      "source": "doi",
+      "target": "metadata"
+    },
+    {
+      "source": "doi",
+      "target": "dataset"
+    },
+    {
+      "source": "doi",
+      "target": "publicatie"
+    },
+    {
+      "source": "avg",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "avg",
+      "target": "privacy"
+    },
+    {
+      "source": "avg",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "avg",
+      "target": "dpia"
+    },
+    {
+      "source": "avg",
+      "target": "functionaris gegevensbescherming"
+    },
+    {
+      "source": "in-kind bijdrage",
+      "target": "financier"
+    },
+    {
+      "source": "in-kind bijdrage",
+      "target": "subsidie"
+    },
+    {
+      "source": "lectoraat",
+      "target": "kenniscentrum"
+    },
+    {
+      "source": "lectoraat",
+      "target": "onderzoeksgroep"
+    },
+    {
+      "source": "lectoraat",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "privacy",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "privacy",
+      "target": "privacy officer"
+    },
+    {
+      "source": "privacy",
+      "target": "functionaris gegevensbescherming"
+    },
+    {
+      "source": "casestudy",
+      "target": "survey"
+    },
+    {
+      "source": "casestudy",
+      "target": "interview"
+    },
+    {
+      "source": "casestudy",
+      "target": "observatie"
+    },
+    {
+      "source": "dataopslag",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "dataopslag",
+      "target": "dataset"
+    },
+    {
+      "source": "dataopslag",
+      "target": "repository"
+    },
+    {
+      "source": "dataopslag",
+      "target": "high performance computing"
+    },
+    {
+      "source": "dataopslag",
+      "target": "virtuele onderzoeksomgeving"
+    },
+    {
+      "source": "virtuele onderzoeksomgeving",
+      "target": "repository"
+    },
+    {
+      "source": "virtuele onderzoeksomgeving",
+      "target": "high performance computing"
+    },
+    {
+      "source": "virtuele onderzoeksomgeving",
+      "target": "dataset"
+    },
+    {
+      "source": "onderzoeksprogramma",
+      "target": "onderzoeksgroep"
+    },
+    {
+      "source": "onderzoeksprogramma",
+      "target": "subsidie"
+    },
+    {
+      "source": "onderzoeksprogramma",
+      "target": "publicatie"
+    },
+    {
+      "source": "onderzoeksprogramma",
+      "target": "dataset"
+    },
+    {
+      "source": "onderzoeksprogramma",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "faculteit",
+      "target": "onderzoeksgroep"
+    },
+    {
+      "source": "faculteit",
+      "target": "lectoraat"
+    },
+    {
+      "source": "faculteit",
+      "target": "kenniscentrum"
+    },
+    {
+      "source": "faculteit",
+      "target": "onderzoeksprogramma"
+    },
+    {
+      "source": "faculteit",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "high performance computing",
+      "target": "digitale onderzoeksomgeving"
+    },
+    {
+      "source": "high performance computing",
+      "target": "dataset"
+    },
+    {
+      "source": "high performance computing",
+      "target": "onderzoeksinfrastructuur"
+    },
+    {
+      "source": "repository",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "repository",
+      "target": "dataset"
+    },
+    {
+      "source": "repository",
+      "target": "publicatie"
+    },
+    {
+      "source": "repository",
+      "target": "metadata"
+    },
+    {
+      "source": "repository",
+      "target": "persistent identifier (pid)"
+    },
+    {
+      "source": "coderen",
+      "target": "kwalitatieve data-analyse"
+    },
+    {
+      "source": "coderen",
+      "target": "interview"
+    },
+    {
+      "source": "coderen",
+      "target": "focusgroep"
+    },
+    {
+      "source": "metc",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "metc",
+      "target": "ethische toetsing"
+    },
+    {
+      "source": "kwalitatieve data-analyse",
+      "target": "interview"
+    },
+    {
+      "source": "kwalitatieve data-analyse",
+      "target": "focusgroep"
+    },
+    {
+      "source": "metadata",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "metadata",
+      "target": "publicatie"
+    },
+    {
+      "source": "metadata",
+      "target": "persistent identifier (pid)"
+    },
+    {
+      "source": "onderzoeksinfrastructuur",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "onderzoeksinfrastructuur",
+      "target": "virtuele onderzoeksomgeving"
+    },
+    {
+      "source": "onderzoeksinfrastructuur",
+      "target": "repository"
+    },
+    {
+      "source": "onderzoeksinfrastructuur",
+      "target": "dataset"
+    },
+    {
+      "source": "interview",
+      "target": "focusgroep"
+    },
+    {
+      "source": "interview",
+      "target": "survey"
+    },
+    {
+      "source": "functionaris gegevensbescherming",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "functionaris gegevensbescherming",
+      "target": "privacy officer"
+    },
+    {
+      "source": "functionaris gegevensbescherming",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "open science",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "open science",
+      "target": "repository"
+    },
+    {
+      "source": "kenniscentrum",
+      "target": "onderzoeksprogramma"
+    },
+    {
+      "source": "kenniscentrum",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "publicatie",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "publicatie",
+      "target": "onderzoeksproject"
+    },
+    {
+      "source": "publicatie",
+      "target": "dataset"
+    },
+    {
+      "source": "publicatie",
+      "target": "persistent identifier (pid)"
+    },
+    {
+      "source": "eerste geldstroom",
+      "target": "tweede geldstroom"
+    },
+    {
+      "source": "subsidieadviseur",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "subsidieadviseur",
+      "target": "subsidie"
+    },
+    {
+      "source": "persistent identifier (pid)",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "persistent identifier (pid)",
+      "target": "dataset"
+    },
+    {
+      "source": "onderzoeksproject",
+      "target": "onderzoeksgroep"
+    },
+    {
+      "source": "onderzoeksproject",
+      "target": "subsidie"
+    },
+    {
+      "source": "onderzoeksproject",
+      "target": "financier"
+    },
+    {
+      "source": "focusgroep",
+      "target": "observatie"
+    },
+    {
+      "source": "fair data",
+      "target": "fair"
+    },
+    {
+      "source": "fair data",
+      "target": "open access"
+    },
+    {
+      "source": "fair data",
+      "target": "dataset"
+    },
+    {
+      "source": "fair data",
+      "target": "metadata"
+    },
+    {
+      "source": "fair data",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "onderzoeksgroep",
+      "target": "onderzoeker"
+    },
+    {
+      "source": "onderzoeksgroep",
+      "target": "kenniscentrum"
+    },
+    {
+      "source": "privacy officer",
+      "target": "archetype - onderzoeksfinanciering"
+    },
+    {
+      "source": "privacy officer",
+      "target": "persoonsgegevens"
+    },
+    {
+      "source": "research datamanagement",
+      "target": "privacy"
+    },
+    {
+      "source": "research datamanagement",
+      "target": "avg"
+    },
+    {
+      "source": "research datamanagement",
+      "target": "dpia"
+    },
+    {
+      "source": "research datamanagement",
+      "target": "archetype - research datamanagement"
+    },
+    {
+      "source": "fair",
+      "target": "metadata"
+    },
+    {
+      "source": "fair",
+      "target": "repository"
+    },
+    {
+      "source": "fair",
+      "target": "persistent identifier (pid)"
+    },
+    {
+      "source": "fair",
+      "target": "datamanagementplan"
+    },
+    {
+      "source": "fair",
+      "target": "open access"
+    },
+    {
+      "source": "fair",
+      "target": "research datamanagement"
+    },
+    {
+      "source": "fair",
+      "target": "open science"
+    }
+  ]
+}
