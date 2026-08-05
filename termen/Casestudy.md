@@ -41,7 +41,7 @@ tags:
   - onderzoek
   - methode
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 # Casestudy
@@ -74,9 +74,9 @@ In systemen kan casestudy worden vastgelegd als onderzoeksbenadering of onderzoe
 Casestudy wordt veel gebruikt in praktijkgericht onderzoek, ontwerpgericht onderzoek en organisatieonderzoek.
 
 ## Relaties
-- is type van: onderzoeksmethode
-- maakt deel uit van: onderzoeksopzet
-- wordt uitgevoerd door: onderzoeker
+- is type van: [[Onderzoeksmethode]]
+- maakt deel uit van: [[Onderzoeksopzet]]
+- wordt uitgevoerd door: [[Onderzoeker]]
 - wordt gefinancierd door: n.v.t.
 - levert op: diepgaande contextuele inzichten
 
@@ -105,4 +105,4 @@ Casestudy wordt veel gebruikt in praktijkgericht onderzoek, ontwerpgericht onder
 - **Status:** concept
 - **Eigenaar:** [[Lexicon redactie]]
 - **Aangemaakt:** 2026-08-04
-- **Laatst bijgewerkt:** 2026-08-04
+- **Laatst bijgewerkt:** 2026-08-05
