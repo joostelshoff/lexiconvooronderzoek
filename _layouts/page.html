@@ -67,18 +67,22 @@ layout: default
     {% capture meta_rows %}
       {% for field in scalar_fields %}
         {% assign parts = field | split: ":" %}
-        {% assign value = page[parts[0]] %}
+        {% assign meta_key = parts[0] %}
+        {% assign meta_label = parts[1] %}
+        {% assign value = page[meta_key] %}
         {% if value and value != "" %}
-<tr><th>{{ parts[1] }}</th><td>{{ value }}</td></tr>
+<tr><th>{{ meta_label }}</th><td>{{ value }}</td></tr>
         {% endif %}
       {% endfor %}
       {% for field in list_fields %}
         {% assign parts = field | split: ":" %}
-        {% assign items = page[parts[0]] %}
+        {% assign meta_key = parts[0] %}
+        {% assign meta_label = parts[1] %}
+        {% assign items = page[meta_key] %}
         {% assign items = items | where_exp: "v", "v != nil" %}
         {% assign items = items | where_exp: "v", "v != empty" %}
         {% if items and items.size > 0 %}
-<tr><th>{{ parts[1] }}</th><td>{{ items | join: ", " }}</td></tr>
+<tr><th>{{ meta_label }}</th><td>{{ items | join: ", " }}</td></tr>
         {% endif %}
       {% endfor %}
     {% endcapture %}
