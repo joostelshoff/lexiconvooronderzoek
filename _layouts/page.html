@@ -2,6 +2,15 @@
 layout: default
 ---
 <style>
+  .site-subnav {
+    margin: 0 0 1.5em 0;
+    padding-bottom: 0.8em;
+    border-bottom: 1px solid #e1e4e8;
+    font-size: 14px;
+  }
+  .site-subnav a {
+    margin-right: 1em;
+  }
   .term-meta {
     margin: 0 0 2em 0;
     border: 1px solid #e1e4e8;
@@ -47,6 +56,11 @@ layout: default
 </style>
 
 <div class="wikilink-content">
+    <nav class="site-subnav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/graph.html' | relative_url }}">Graph</a>
+    </nav>
+
     {% assign scalar_fields = "status:Status,archetype:Archetype,abstract_level:Abstractieniveau,language:Taal,english:Engelse term,scope:Scope,source_status:Bronstatus,created:Aangemaakt,updated:Laatst bijgewerkt" | split: "," %}
     {% assign list_fields = "domains:Domeinen,contexts:Context,synonyms:Synoniemen,near_synonyms:Bijna-synoniemen,broader_terms:Bredere termen,narrower_terms:Nauwere termen,related_terms:Gerelateerde termen,local_variants:Lokale varianten,deprecated_terms:Verouderde termen,sources:Bronnen,owners:Eigenaren,tags:Tags" | split: "," %}
 
