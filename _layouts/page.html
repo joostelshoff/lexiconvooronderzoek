@@ -1,10 +1,86 @@
 ---
 layout: default
 ---
-<div class="wikilink-content page-content">
-  <div class="wrapper">
+<style>
+  .term-meta {
+    margin: 0 0 2em 0;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    background: #f8f9fa;
+    font-size: 14px;
+  }
+  .term-meta summary {
+    cursor: pointer;
+    padding: 0.6em 1em;
+    font-weight: 600;
+    color: #444;
+    list-style: none;
+  }
+  .term-meta summary::-webkit-details-marker { display: none; }
+  .term-meta summary::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.15s ease;
+  }
+  .term-meta[open] summary::before { transform: rotate(90deg); }
+  .term-meta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0 1em 0.8em 1em;
+  }
+  .term-meta-table th,
+  .term-meta-table td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.3em 0.6em 0.3em 0;
+    border-top: 1px solid #eaecef;
+  }
+  .term-meta-table tr:first-child th,
+  .term-meta-table tr:first-child td { border-top: none; }
+  .term-meta-table th {
+    width: 11em;
+    color: #6a737d;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+</style>
+
+<div class="wikilink-content">
+    {% assign scalar_fields = "status:Status,archetype:Archetype,abstract_level:Abstractieniveau,language:Taal,english:Engelse term,scope:Scope,source_status:Bronstatus,created:Aangemaakt,updated:Laatst bijgewerkt" | split: "," %}
+    {% assign list_fields = "domains:Domeinen,contexts:Context,synonyms:Synoniemen,near_synonyms:Bijna-synoniemen,broader_terms:Bredere termen,narrower_terms:Nauwere termen,related_terms:Gerelateerde termen,local_variants:Lokale varianten,deprecated_terms:Verouderde termen,sources:Bronnen,owners:Eigenaren,tags:Tags" | split: "," %}
+
+    {% capture meta_rows %}
+      {% for field in scalar_fields %}
+        {% assign parts = field | split: ":" %}
+        {% assign value = page[parts[0]] %}
+        {% if value and value != "" %}
+<tr><th>{{ parts[1] }}</th><td>{{ value }}</td></tr>
+        {% endif %}
+      {% endfor %}
+      {% for field in list_fields %}
+        {% assign parts = field | split: ":" %}
+        {% assign items = page[parts[0]] %}
+        {% assign items = items | where_exp: "v", "v != nil and v != empty" %}
+        {% if items and items.size > 0 %}
+<tr><th>{{ parts[1] }}</th><td>{{ items | join: ", " }}</td></tr>
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% assign meta_rows = meta_rows | strip %}
+
+    {% if meta_rows != "" %}
+    <details class="term-meta" open>
+      <summary>Metadata</summary>
+      <table class="term-meta-table">
+        <tbody>
+          {{ meta_rows }}
+        </tbody>
+      </table>
+    </details>
+    {% endif %}
+
     {{ content }}
-  </div>
 </div>
 
 <script>
@@ -13,7 +89,7 @@ layout: default
   // alle pagina's in termen/. Nieuwe termen worden hier automatisch in
   // meegenomen bij elke nieuwe build.
   var termen = {
-    {% assign termpages = site.pages | where_exp: "p", "p.path contains 'termen/'" %}
+    {% assign termpages = site.pages | where_exp: "p", "p.path contains 'termen/' or p.path contains 'archetypes/'" %}
     {% for p in termpages %}"{{ p.title | downcase | strip }}": "{{ p.url | relative_url }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
