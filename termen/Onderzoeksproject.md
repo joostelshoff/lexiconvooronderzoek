@@ -64,6 +64,7 @@ Een onderzoeksproject functioneert in de praktijk vaak als een basiseenheid voor
 - verantwoording van activiteiten;
 - samenwerking met interne en externe partijen;
 - registratie van outputs zoals [[Publicatie]], [[Dataset]], [[Prototype]] en [[Rapport]].  
+
 ## Afbakening
 
 Een onderzoeksproject is een term binnen het archetype [[Archetype - Onderzoeksactiviteit]] en beschrijft dus primair **iets dat wordt uitgevoerd**.
@@ -81,6 +82,7 @@ Binnen het archetype [[Archetype - Onderzoeksactiviteit]] is een onderzoeksproje
 - **breder en samenhangender** dan een [[Werkpakket]] of [[Deelonderzoek]].  
 
 Een onderzoeksproject kan zelfstandig bestaan of deel uitmaken van een [[Onderzoeksprogramma]].
+
 ## Gebruik in context
 
 ### Beleid
@@ -99,6 +101,7 @@ In het hbo heeft een onderzoeksproject vaak een sterk praktijkgerichte en samenw
 In het wo is het onderzoeksproject vaker ingebed in disciplinaire of wetenschappelijke onderzoekslijnen.
 
 In beide gevallen blijft de kern gelijk: een afgebakende onderzoeksactiviteit met doel, middelen, looptijd en opbrengsten.
+
 ## Relaties
 
 - is type van: [[Archetype - Onderzoeksactiviteit]]
@@ -112,6 +115,7 @@ In beide gevallen blijft de kern gelijk: een afgebakende onderzoeksactiviteit me
 ### Synoniemen
 
 - Project
+
 ### Bijna-synoniemen / opletten
 
 - [[Onderzoeksprogramma]] — hoger aggregatieniveau, vaak bestaande uit meerdere onderzoeksprojecten
@@ -122,6 +126,7 @@ In beide gevallen blijft de kern gelijk: een afgebakende onderzoeksactiviteit me
 
 - praktijkgericht onderzoeksproject
 - wetenschappelijk onderzoeksproject
+
 ## Voorbeelden
 
 - Een door NWO gefinancierd project met een looptijd van vier jaar.
@@ -132,11 +137,13 @@ In beide gevallen blijft de kern gelijk: een afgebakende onderzoeksactiviteit me
 ## Bronnen
 
 - [[Bron - interne werkgroep lexicon]]
+
 ## Open vragen
 
 - Is een promotietraject altijd een onderzoeksproject, of soms een andere vorm van [[Archetype - Onderzoeksactiviteit]]?
 - Wanneer is een activiteit voldoende afgebakend om als onderzoeksproject te gelden?
 - Hoe verhoudt een onderzoeksproject zich tot lokale projectcoderingen in administratieve systemen?
+
 ## Beheer
 
 - **Status:** concept
