@@ -1,6 +1,6 @@
 title: Lexicon voor Onderzoek
 description: Een lexicon voor onderzoek
-theme: minima
+theme: slate
 markdown: kramdown
 
 # Zorgt dat GitHub Pages ook .md-bestanden buiten de root (zoals termen/*.md) meebouwt
