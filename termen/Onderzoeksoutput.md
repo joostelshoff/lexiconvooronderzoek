@@ -49,8 +49,8 @@ tags:
   - term
   - onderzoek
   - output
-created:
-updated:
+created: 2026-08-06
+updated: 2026-08-06T15:05:00
 ---
 
 # Onderzoeksoutput
