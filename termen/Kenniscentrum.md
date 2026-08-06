@@ -109,6 +109,6 @@ Niet elke instelling gebruikt deze term op dezelfde manier. In sommige contexten
 - **Laatst bijgewerkt:** 2026-08-03
 
 ## Voorbeelden
-- Een kenniscentrum omvat meerdere [[Lectoraat|lectoraten]] binnen een gedeeld maatschappelijk of thematisch domein.
+- Een kenniscentrum omvat meerdere lectoraten (term: [[Lectoraat]]) binnen een gedeeld maatschappelijk of thematisch domein.
 - Binnen een kenniscentrum worden verschillende [[Onderzoeksprogramma]]’s en [[Onderzoeksproject]]en uitgevoerd.
 - Een kenniscentrum onderhoudt structurele samenwerking met bedrijven, overheden en maatschappelijke organisaties.
