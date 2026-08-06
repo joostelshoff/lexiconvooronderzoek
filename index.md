@@ -7,6 +7,15 @@ title: Home
 
 Ruimte om een lexicon voor onderzoek in te ontwikkelen.
 
+## Archetypes
+
+{% assign archetypes = site.pages | where_exp: "p", "p.path contains 'archetypes/'" | sort: "title" %}
+<ul>
+{% for term in archetypen %}
+  <li><a href="{{ term.url | relative_url }}">{{ term.title | default: term.preferred_term | default: term.name }}</a></li>
+{% endfor %}
+</ul>
+
 ## Termen
 
 {% assign termen = site.pages | where_exp: "p", "p.path contains 'termen/'" | sort: "title" %}
@@ -16,11 +25,10 @@ Ruimte om een lexicon voor onderzoek in te ontwikkelen.
 {% endfor %}
 </ul>
 
-## Archetypen
-
-{% assign archetypen = site.pages | where_exp: "p", "p.path contains 'archetypes/'" | sort: "title" %}
+## Docs
+{% assign docs = site.pages | where_exp: "p", "p.path contains 'docs/'" | sort: "title" %}
 <ul>
-{% for term in archetypen %}
+{% for term in docs %}
   <li><a href="{{ term.url | relative_url }}">{{ term.title | default: term.preferred_term | default: term.name }}</a></li>
 {% endfor %}
 </ul>
