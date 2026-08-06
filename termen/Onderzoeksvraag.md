@@ -40,8 +40,8 @@ tags:
   - lexicon
   - term
   - onderzoek
-created:
-updated:
+created: 06-08-2026
+updated: 06-08-2026 15:49
 ---
 
 # Onderzoeksvraag
