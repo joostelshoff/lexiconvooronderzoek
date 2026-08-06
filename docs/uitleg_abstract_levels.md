@@ -12,8 +12,8 @@ tags:
   - lexicon
   - richtlijn
   - metadata
-created: {{date}}
-updated: {{date}}
+created: 06-08-2026
+updated: 06-08-2026 15:57
 ---
 
 # Richtlijn - abstract_level
