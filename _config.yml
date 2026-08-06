@@ -8,6 +8,7 @@ markdown: kramdown
 include:
   - archetypes
   - termen
+  - docs
 
 # Zorgt dat elke pagina op de site automatisch onze layout krijgt (met
 # header, wikilink-omzetting en het metadata-kader), ook als een los
