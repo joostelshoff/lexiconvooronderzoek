@@ -5,7 +5,7 @@ title: Home
 
 # Lexicon voor Onderzoek
 
-Ruimte om een lexicon voor onderzoek in te ontwikkelen.
+Ruimte om een lexicon voor onderzoek in te ontwikkelen, gebaseerd op open informatie.
 
 ## Archetypes
 
